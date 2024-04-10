@@ -1,0 +1,22 @@
+th{
+    background-color: yellowgreen;
+}
+td{
+    background-color: rgb(6, 168, 255);
+}
+input[type=text],input[type=password],textarea{
+    width:97%;
+}
+.foot{
+    text-align: center;
+}
+input[type=checkbox]::after{
+   border-radius: 50px;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

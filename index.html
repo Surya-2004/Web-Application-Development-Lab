@@ -606,6 +606,125 @@
         </pre>
     <b>Output Link : </b>
     <a href="Resume/resume.html">Resume</a>
+    <h3>Registration Form</h3>
+    <h4>HTML</h4>
+    <pre class="code-box">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en&gt;
+        
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+            &lt;link rel="stylesheet" href="table.css"&gt;
+        &lt;/head&gt;
+        
+        &lt;body&gt;
+            &lt;form&gt;
+                &lt;table border="1"&gt;
+                    &lt;tr&gt;
+                        &lt;th colspan="2"&gt;
+                            &lt;h1&gt;Registration Form&lt;/h1&gt;
+                        &lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Enter Name&lt;/td&gt;
+                        &lt;td&gt;&lt;input type="text"&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Enter Password&lt;/td&gt;
+                        &lt;td&gt;&lt;input type="password"&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Enter Address&lt;/td&gt;
+                        &lt;td&gt;&lt;textarea name="Address" cols="30" rows="5"&gt;&lt;/textarea&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Select Game&lt;/td&gt;
+                        &lt;td&gt;
+                                &lt;div&gt;
+                                    &lt;input type="checkbox" name="games" id="h"&gt;Hockey
+                                &lt;/div&gt;
+                                
+                                &lt;div&gt;
+                                    &lt;input type="checkbox" name="games" id="f"&gt;Football
+                                &lt;/div&gt;
+                                
+                                &lt;div&gt;
+                                    &lt;input type="checkbox" name="games" id="b"&gt;Badminton
+                                &lt;/div&gt;
+                                
+                                &lt;div&gt;
+                                    &lt;input type="checkbox" name="games" id="c"&gt;Cricket
+                                &lt;/div&gt;
+                                
+                                &lt;div&gt;
+                                    &lt;input type="checkbox" name="games" id="v"&gt;Volley Ball
+                                &lt;/div&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Gender&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="radio" name="gender"&gt;Male
+                            &lt;input type="radio" name="gender"&gt;Female
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Enter Your Age&lt;/td&gt;
+                        &lt;td&gt;&lt;select name="age"&gt;
+                                &lt;option value="Select" selected&gt;Select&lt;/option&gt;
+                                &lt;option value="teen"&gt;&lt;18&lt;/option&gt;
+                                &lt;option value="adult"&gt;&gt;18 and &lt;30&lt;/option&gt;
+                                &lt;option value="middle age"&gt;&gt;30 and &lt;45&lt;/option&gt;
+                                &lt;option value="senior citizen"&gt;&gt;45&lt;/option&gt;
+                            &lt;/select&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Select Photo&lt;/td&gt;
+                        &lt;td&gt;&lt;input type="file"&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td colspan="2" class="foot"&gt;
+                            &lt;input type="button" value="Click Me"&gt;
+                            &lt;input type="reset"&gt;
+                            &lt;input type="submit" value="Submit Form"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/form&gt;
+        &lt;/body&gt;
+        
+        &lt;/html&gt;
+        </pre>
+        <h4>CSS</h4>
+        <pre class="code-box">
+            th {
+                background-color: yellowgreen;
+            }
+            td {
+                background-color: rgb(6, 168, 255);
+            }
+            input[type=text],
+            input[type=password],
+            textarea {
+                width: 97%;
+            }
+            .foot {
+                text-align: center;
+            }
+            input[type=checkbox]::after {
+                border-radius: 50px;
+            }
+            body {
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            </pre>            
+        <b>Output Link : </b>
+        <a href="Registration Form/CustomTable.htm">Registration Form</a>    
 </body>
 
 </html>
