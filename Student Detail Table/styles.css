@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+table{
+    background-color: rgb(23, 26, 79);
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(55, 88, 127);
+    color: rgb(190, 186, 215);
+    font-family: 'Baloo Bhai 2';
+    width: 50vw;
+    height: 80vh;
+
+}
+th, td{
+    border: 1px solid rgb(56, 56, 87);
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(25, 10, 39);
+}
+thead th.table-head{
+    background-color: rgba(46, 97, 174, 0.87);
+    color: rgb(226, 236, 235);
+}
+th[colspan="2"]{
+    background-color: rgba(46, 97, 174, 0.5);
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+}

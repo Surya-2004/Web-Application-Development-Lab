@@ -724,7 +724,115 @@
             }
             </pre>            
         <b>Output Link : </b>
-        <a href="Registration Form/CustomTable.htm">Registration Form</a>    
-</body>
+        <a href="Registration Form/CustomTable.htm">Registration Form</a> 
+        <h3>4(a)</h3>
+        <h4>HTML</h4>
+        <pre class="code-box">
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Student Details&lt;/title&gt;
+                &lt;link rel="stylesheet" href="styles.css"&gt;
+                &lt;style&gt;
+                    ;
+                &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;table&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;
+                            &lt;th class="table-head" colspan="2"&gt;Student Details&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;th colspan="2"&gt;Personal Information&lt;/th&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Name&lt;/th&gt;
+                            &lt;td&gt;Surya&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Age&lt;/th&gt;
+                            &lt;td&gt;19&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Date of Birth&lt;/th&gt;
+                            &lt;td&gt;04.08.2004&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Gender&lt;/th&gt;
+                            &lt;td&gt;Male&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Blood Group&lt;/th&gt;
+                            &lt;td&gt;B +ve&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Mobile No&lt;/th&gt;
+                            &lt;td&gt;8608198822&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Email&lt;/th&gt;
+                            &lt;td&gt;surya04082004@gmail.com&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th colspan="2"&gt;Academic Information&lt;/th&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Field&lt;/th&gt;
+                            &lt;td&gt;Engineering&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Branch&lt;/th&gt;
+                            &lt;td&gt;Computer Science and Business Systems&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Year&lt;/th&gt;
+                            &lt;td&gt;2nd Year&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+        <h4>CSS</h4>
+        <pre class="code-box">
+            @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+            table{
+                background-color: rgb(23, 26, 79);
+                border-radius: 10px;
+                box-shadow: 7px 7px 10px rgb(55, 88, 127);
+                color: rgb(190, 186, 215);
+                font-family: 'Baloo Bhai 2';
+                width: 50vw;
+                height: 80vh;
 
+            }
+            th, td{
+                border: 1px solid rgb(56, 56, 87);
+                border-radius: 25px;
+                padding-left: 5px;
+                padding-right: 5px;
+                background-color: rgb(25, 10, 39);
+            }
+            thead th.table-head{
+                background-color: rgba(46, 97, 174, 0.87);
+                color: rgb(226, 236, 235);
+            }
+            th[colspan="2"]{
+                background-color: rgba(46, 97, 174, 0.5);
+            }
+            body{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(14, 14, 14);
+            }
+        </pre>
+        <b>Output Link : </b>
+        <a href="Student Detail Table/index.html">4(a)</a>
+</body>
 </html>
